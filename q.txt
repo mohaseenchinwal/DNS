@@ -1,0 +1,80 @@
+SELECT
+  UNIX_TIMESTAMP(time) as time_sec,
+   TOTAL as value,
+  'TOTAL' as metric
+FROM dns_stat as ds
+WHERE $__timeFilter(time)
+ORDER BY ds.time  ASC
+
+SELECT
+  UNIX_TIMESTAMP(time) as time_sec,
+   TOTAL as value,
+  'TOTAL' as metric
+FROM dns_stat as ds
+WHERE $__timeFilter(time)
+ORDER BY ds.time  ASC
+
+
+SELECT
+  UNIX_TIMESTAMP(time) as time_sec,
+   TOTAL as value,
+  'TOTAL' as metric
+FROM dns_stat as ds
+WHERE $__timeFilter(time)
+ORDER BY ds.time  ASC
+
+
+SELECT
+  UNIX_TIMESTAMP(time) as time_sec,
+   TOTAL as value,
+  'TOTAL' as metric
+FROM dns_stat as ds
+WHERE $__timeFilter(time)
+ORDER BY ds.time  ASC
+
+
+
+SELECT
+  UNIX_TIMESTAMP(time) as time_sec,
+   TOTAL as value,
+  'TOTAL' as metric
+FROM dns_stat as ds
+WHERE $__timeFilter(time)
+ORDER BY ds.time  ASC
+
+
+
+SELECT
+  UNIX_TIMESTAMP(time) as time_sec,
+   TOTAL as value,
+  'TOTAL' as metric
+FROM dns_stat as ds
+WHERE $__timeFilter(time)
+ORDER BY ds.time  ASC
+
+
+SELECT
+  UNIX_TIMESTAMP(time) as time_sec,
+   TOTAL as value,
+  'TOTAL' as metric
+FROM dns_stat as ds
+WHERE $__timeFilter(time)
+ORDER BY ds.time  ASC
+
+
+
+SELECT
+  UNIX_TIMESTAMP(time) as time_sec,
+   TOTAL as value,
+  'TOTAL' as metric
+FROM dns_stat as ds
+WHERE $__timeFilter(time)
+ORDER BY ds.time  ASC
+
+SELECT
+  UNIX_TIMESTAMP(time) as time_sec,
+   TOTAL as value,
+  'TOTAL' as metric
+FROM dns_stat as ds
+WHERE $__timeFilter(time)
+ORDER BY ds.time  ASC
